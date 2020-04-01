@@ -19,6 +19,8 @@ npm install
 npx snowpack
 ```
 
+To run:
+
 ```bash
 npm run babel
 ```
