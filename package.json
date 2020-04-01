@@ -1,0 +1,29 @@
+{
+  "name": "coding-paula-snowpack",
+  "version": "1.0.0",
+  "description": "me page of Paula Ritter made with snowpack",
+  "main": "index.js",
+  "scripts": {
+    "babel": "concurrently \"babel src/ --out-dir lib --watch\" \"live-server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paula Ritter",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "concurrently": "^5.1.0",
+    "live-server": "^1.2.1",
+    "snowpack": "^1.6.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.0",
+    "react": "npm:@pika/react@^16.13.1",
+    "react-dom": "npm:@pika/react-dom@^16.13.1",
+    "react-syntax-highlighter": "^12.2.1",
+    "serve": "^11.3.0",
+    "styled-components": "^5.0.1"
+  }
+}
